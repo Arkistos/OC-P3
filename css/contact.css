@@ -1,0 +1,20 @@
+.contact-page{
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    main{
+        flex-direction: column;
+    }
+}

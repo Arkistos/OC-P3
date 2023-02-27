@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 10vh;
+    margin: auto;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        height: 15vh;
+    }
+}

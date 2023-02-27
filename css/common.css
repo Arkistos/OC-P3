@@ -1,0 +1,15 @@
+body{
+    background-color: var(--background-color);
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    color: var(--main-color);
+    text-decoration: none;
+    cursor: pointer;
+}
